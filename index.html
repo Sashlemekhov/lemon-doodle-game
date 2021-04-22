@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lemon-Doodle game</title>
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="style.css"></link>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+  <script type="module" src="./game.js" charset="utf-8"></script>
+</head>
+<body>
+  <div class="backdrop">
+    <div class="container">
+      <h1 class="header">Lemon-Doodle game</h1>
+      <h2 class="title">Choose your hero:</h2>
+      <div class="chooseHero">
+        <div class="hero">
+          <img src="./img/lisiy-left.png" name="lisiy">
+          <h3 class="name">Lisiy</h3>
+        </div>
+        <div class="hero">
+          <img src="./img/lemehov-left.png" name="lemehov">
+          <h3 class="name">Lemehov</h3>
+        </div>
+        <div class="hero">
+          <img src="./img/vitala-left.png" name="vitala">
+          <h3 class="name">Vitala</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flexContainer">
+    <div class="grid"></div>
+  </div>
+  
+  </div>
+  <div class="backdrop isHiden" id="gameOverModal">
+    <div class="container">
+      <p class="title">Your score: <span class="result"></span></p>
+
+    <div class="multi-button">
+      <button class="btn" id="restartBtn">Restart</button>
+      <button class="btn" id="changeHeroBtn">Сhange hero</button>
+      <button class="btn"><a href="https://www.youtube.com/channel/UCmcbK8bjZ18G0eLmtGYy9sQ" target="_blank">YouTube</a></button>
+    </div>
+      
+    </div>
+  </div>
+</body>
+<footer>
+  
+</footer>
+</html>
